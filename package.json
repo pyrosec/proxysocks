@@ -1,0 +1,23 @@
+{
+  "name": "proxysocks",
+  "version": "0.1.0",
+  "description": "proxysocks",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": "https://github.com/pyrosec/proxysocks",
+  "author": "pyrosec <inquiries@pyrosec.gg>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "nice-repl": "^0.1.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "setimmediate": "^1.0.5",
+    "winston": "^3.11.0"
+  }
+}
